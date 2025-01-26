@@ -16,12 +16,11 @@ function enviarEmail() {
 
     errorMessage.textContent = '';
 
+    // Parâmetros atualizados para corresponder ao template
     const params = {
-        nome: nome,
-        email: email,
-        numero: numero,
-        assunto: assunto,
-        mensagem: mensagem
+        to_name: "Nome do Destinatário", // Substitua pelo nome do destinatário
+        from_name: nome, // Nome do remetente
+        message: mensagem // Mensagem do formulário
     };
 
     console.log('Dados do formulário:', params); // Verifique os dados no console
