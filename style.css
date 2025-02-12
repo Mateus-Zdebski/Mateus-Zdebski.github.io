@@ -289,5 +289,26 @@ section {
     50% { transform: scale(0.95); }
     100% { transform: scale(1); }
 }
+ /* Estilos para o tema escuro */
+        .dark body {
+            background-color: #1e293b;
+            color: #f9fafb;
+        }
 
+        .dark .navbar {
+            background-color: #2d3748;
+        }
+
+        .dark .navbar a {
+            color: #f9fafb;
+        }
+
+        .dark .navbar a:hover {
+            color: #93c5fd;
+        }
+
+        .dark .navbar .active {
+            background-color: #3b82f6;
+            color: #1e293b;
+        }
 >>>>>>> 3e38f67 (tirado log)
