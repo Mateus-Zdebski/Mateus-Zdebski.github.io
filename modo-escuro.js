@@ -24,7 +24,7 @@
         // Adicionar evento de clique ao botão de alternância
         document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 
-        // Função para alternar o menu mobile
+       // Função para alternar o menu mobile
         document.getElementById('menu-toggle').addEventListener('click', function () {
             const mobileMenu = document.getElementById('navbar-cta');
             mobileMenu.classList.toggle('hidden');
