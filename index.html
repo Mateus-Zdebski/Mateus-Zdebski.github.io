@@ -13,10 +13,13 @@
 </head>
     
 <body>
- <nav class="bg-blue-600 p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <!-- Links -->
-            <div class="flex space-x-6">
+  <nav class="bg-[#191f36] p-4">
+        <div class="max-w-screen-xl mx-auto flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#" class="text-white text-2xl font-bold">MZ</a>
+
+            <!-- Links da Navbar -->
+            <div class="hidden md:flex space-x-4">
                 <a href="#home" class="text-blue-500 py-2">Home</a>
                 <a href="#about" class="text-white hover:text-blue-500 py-2">Sobre</a>
                 <a href="#timeline" class="text-white hover:text-blue-500 py-2">Meus Cursos</a>
@@ -24,12 +27,11 @@
                 <a href="#skills" class="text-white hover:text-blue-500 py-2">Skills</a>
                 <a href="#portifolio" class="text-white hover:text-blue-500 py-2">Portifolio</a>
             </div>
-            
-            <!-- Botões -->
+
+            <!-- Botão de modo claro/escuro e menu toggle -->
             <div class="flex items-center md:ml-auto">
                 <button id="theme-toggle" class="bg-blue-500 text-white p-2 rounded-lg">Modo escuro</button>
-                <button id="menu-toggle" type="button"
-                    class="p-2 w-10 h-10 text-white rounded-lg md:hidden hover:bg-gray-700"
+                <button id="menu-toggle" type="button" class="p-2 w-10 h-10 text-white rounded-lg md:hidden hover:bg-gray-700"
                     aria-controls="navbar-cta" aria-expanded="false">
                     <span class="sr-only">Open menu</span>
                     <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -41,6 +43,7 @@
             </div>
         </div>
     </nav>
+
 
     <!-- Section -->
     <section class="flex justify-center items-center p-10 bg-[#191f36] text-black custom-margin-top" id="home">
