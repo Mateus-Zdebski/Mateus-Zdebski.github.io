@@ -311,4 +311,13 @@ section {
             background-color: #3b82f6;
             color: #1e293b;
         }
+
+/* Efeito de hover nos links do menu */
+.navbar a {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: #59B2F4;
+}
 >>>>>>> 3e38f67 (tirado log)
