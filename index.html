@@ -13,39 +13,49 @@
 </head>
     
 <body>
-   <!-- Navbar -->
-    <nav class="bg-[#191f36] p-4 dark:bg-[#2d3748]">
-        <div class="max-w-screen-xl mx-auto flex items-center justify-between">
-            <!-- Logo -->
-            <a href="#" class="text-white text-2xl font-bold">MZ</a>
+  <!-- Navbar -->
+<nav class="bg-[#191f36] p-4 dark:bg-[#2d3748]">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between">
+        <!-- Logo -->
+        <a href="#" class="text-white text-2xl font-bold">MZ</a>
 
-            <!-- Botão de modo claro/escuro e menu toggle -->
-            <div class="flex items-center md:ml-auto">
-                <button id="theme-toggle" class="bg-blue-500 text-white p-2 rounded-lg">Modo escuro</button>
-                <button id="menu-toggle" type="button" class="p-2 w-10 h-10 text-white rounded-lg md:hidden hover:bg-gray-700"
-                    aria-controls="navbar-cta" aria-expanded="false">
-                    <span class="sr-only">Abrir menu</span>
-                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7" />
-                    </svg>
-                </button>
-            </div>
+        <!-- Menu de Navegação para Telas Grandes -->
+        <div class="hidden md:flex space-x-8">
+            <a href="#home" class="text-white hover:text-blue-500">Home</a>
+            <a href="#about" class="text-white hover:text-blue-500">Sobre</a>
+            <a href="#timeline" class="text-white hover:text-blue-500">Meus Cursos</a>
+            <a href="#services" class="text-white hover:text-blue-500">Serviços</a>
+            <a href="#skills" class="text-white hover:text-blue-500">Skills</a>
+            <a href="#portifolio" class="text-white hover:text-blue-500">Portifolio</a>
         </div>
 
-        <!-- Menu Mobile (visível apenas em telas pequenas) -->
-        <div id="navbar-cta" class="hidden md:hidden bg-[#191f36] dark:bg-[#2d3748]">
-            <div class="px-4 py-2 space-y-1">
-                <a href="#home" class="block py-2 text-white hover:text-blue-500">Home</a>
-                <a href="#about" class="block py-2 text-white hover:text-blue-500">Sobre</a>
-                <a href="#timeline" class="block py-2 text-white hover:text-blue-500">Meus Cursos</a>
-                <a href="#services" class="block py-2 text-white hover:text-blue-500">Serviços</a>
-                <a href="#skills" class="block py-2 text-white hover:text-blue-500">Skills</a>
-                <a href="#portifolio" class="block py-2 text-white hover:text-blue-500">Portifolio</a>
-            </div>
+        <!-- Botão de modo claro/escuro e menu toggle -->
+        <div class="flex items-center md:ml-auto">
+            <button id="theme-toggle" class="bg-blue-500 text-white p-2 rounded-lg">Modo escuro</button>
+            <button id="menu-toggle" type="button" class="p-2 w-10 h-10 text-white rounded-lg md:hidden hover:bg-gray-700"
+                aria-controls="navbar-cta" aria-expanded="false">
+                <span class="sr-only">Abrir menu</span>
+                <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
         </div>
-    </nav>
+    </div>
+
+    <!-- Menu Mobile (visível apenas em telas pequenas) -->
+    <div id="navbar-cta" class="hidden md:hidden bg-[#191f36] dark:bg-[#2d3748]">
+        <div class="px-4 py-2 space-y-1">
+            <a href="#home" class="block py-2 text-white hover:text-blue-500">Home</a>
+            <a href="#about" class="block py-2 text-white hover:text-blue-500">Sobre</a>
+            <a href="#timeline" class="block py-2 text-white hover:text-blue-500">Meus Cursos</a>
+            <a href="#services" class="block py-2 text-white hover:text-blue-500">Serviços</a>
+            <a href="#skills" class="block py-2 text-white hover:text-blue-500">Skills</a>
+            <a href="#portifolio" class="block py-2 text-white hover:text-blue-500">Portifolio</a>
+        </div>
+    </div>
+</nav>
 
     <!-- Section -->
     <section class="flex justify-center items-center p-10 bg-[#191f36] text-black custom-margin-top" id="home">
