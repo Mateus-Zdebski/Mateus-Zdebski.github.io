@@ -24,8 +24,15 @@
         // Adicionar evento de clique ao botão de alternância
         document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 
-        // Função para alternar o menu mobile
-        document.getElementById('menu-toggle').addEventListener('click', function () {
-            const mobileMenu = document.getElementById('navbar-cta');
-            mobileMenu.classList.toggle('hidden');
-        });
+    document.getElementById("menu-toggle").addEventListener("click", function () {
+    const mobileMenu = document.getElementById("navbar-cta");
+    mobileMenu.classList.toggle("hidden");
+
+    // Alternar ícone do botão
+    const icon = this.querySelector('svg');
+    if (mobileMenu.classList.contains("hidden")) {
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />';
+    } else {
+        icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />';
+    }
+});
