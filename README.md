@@ -1,4 +1,3 @@
-Aqui está um **README** para o seu portfólio. Se precisar de ajustes ou quiser adicionar algo específico, me avise! 🚀  
 
 ---
 
@@ -59,3 +58,6 @@ Este é o meu portfólio pessoal, onde apresento meus projetos, habilidades e ex
 📸 **Instagram**: [@mateuszdebski02](https://www.instagram.com/mateuszdebski02/)  
 
 ---
+Todos diretos reservados
+---
+
