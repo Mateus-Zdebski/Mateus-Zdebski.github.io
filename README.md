@@ -59,5 +59,3 @@ Este é o meu portfólio pessoal, onde apresento meus projetos, habilidades e ex
 📸 **Instagram**: [@mateuszdebski02](https://www.instagram.com/mateuszdebski02/)  
 
 ---
-
-Se precisar de alguma modificação ou quiser adicionar algo a mais, me avise! 😊🚀
