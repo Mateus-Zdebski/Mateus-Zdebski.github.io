@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio | Desenvolvedor Web</title>
-    
+
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Font Awesome Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    
+
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <!-- AOS Animation Library -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 </head>
+
 <body>
     <!-- Preloader -->
     <div class="preloader">
@@ -27,7 +32,7 @@
     </div>
 
     <!-- Navbar -->
-     <header>
+    <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold" href="#">Meu<span class="text-primary">Portfólio</span></a>
@@ -58,473 +63,454 @@
                 </div>
             </div>
         </nav>
-    <!-- Hero Section -->
-    <section class="hero d-flex align-items-center" id="home">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
-                    <h5 class="mb-3">Olá, eu sou Mateus</h5>
-                    <h1 class="display-3 fw-bold mb-3">Desenvolvedor Web & Técnico em Eletroeletrônica</h1>
-                    <p class="lead mb-4">Combinando conhecimentos em desenvolvimento web e eletrônica para criar soluções tecnológicas criativas</p>
-                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-                        <a href="#contact" class="btn btn-primary">Entre em contato</a>
-                        <a href="#portfolio" class="btn btn-outline-light">Ver projetos</a>
+        <!-- Hero Section -->
+        <section class="hero d-flex align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                        <h5 class="mb-3">Olá, eu sou Mateus</h5>
+                        <h1 class="display-3 fw-bold mb-3">Desenvolvedor Web & Técnico em Eletroeletrônica</h1>
+                        <p class="lead mb-4">Combinando conhecimentos em desenvolvimento web e eletrônica para criar
+                            soluções tecnológicas criativas</p>
+                        <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                            <a href="#contact" class="btn btn-primary">Entre em contato</a>
+                            <a href="#portfolio" class="btn btn-outline-light">Ver projetos</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-duration="1000"
+                        data-aos-delay="300">
+                        <img src="imagens/perfil.jpg" alt="Profile Image" class="img-fluid hero-img mx-auto">
                     </div>
                 </div>
-                <div class="col-lg-6 text-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                    <img src="imagens/perfil.jpg" alt="Profile Image" class="img-fluid hero-img mx-auto">
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section class="py-5 py-lg-7" id="about">
-        <div class="container py-5">
-            <div class="row align-items-center">
-                <div class="col-lg-5 mb-5 mb-lg-0 text-center" data-aos="fade-right" data-aos-duration="1000">
-                    <img src="imagens/perfil.jpg" alt="About Image" class="img-fluid rounded-3">
-                </div>
-                <div class="col-lg-7 ps-lg-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-                    <h2 class="section-title">Sobre Mim</h2>
-                    <p class="lead mb-4">Desenvolvedor iniciante e entusiasta de tecnologia, focado em desenvolvimento web e eletrônica</p>
-                    <p class="mb-4">
-                        Estou no início da minha jornada profissional na área de tecnologia, combinando conhecimentos de desenvolvimento web e eletroeletrônica. Com formação técnica em Desenvolvimento de Sistemas pelo Senai e estudos em Eletroeletrônica pelo IFSC, busco aplicar estes conhecimentos em projetos criativos e inovadores.
-                    </p>
-                    <div class="row mb-4">
-                        <div class="col-md-6 mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <p class="mb-0">Desenvolvimento Web</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <p class="mb-0">Eletroeletrônica</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <p class="mb-0">Banco de Dados MySQL</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <div class="d-flex align-items-center">
-                                <i class="fas fa-check-circle text-primary me-2"></i>
-                                <p class="mb-0">Arduino</p>
-                            </div>
-                        </div>
+        <!-- About Section -->
+        <section class="py-5 py-lg-7" id="about">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0 text-center" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="imagens/perfil.jpg" alt="About Image" class="img-fluid rounded-3">
                     </div>
-                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
-                        <a href="imagens/Mateus Zdebski.pdf" class="btn btn-primary">Download CV</a>
-                        <a href="#contact" class="btn btn-outline-dark">Contate-me</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="py-5 py-lg-7 bg-light" id="skills">
-        <div class="container py-5">
-            <div class="row justify-content-center text-center mb-5">
-                <div class="col-lg-6">
-                    <h2 class="section-title mx-auto">Minhas Habilidades</h2>
-                    <p>Tecnologias e ferramentas que aprendi durante minha formação</p>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-12">
-                    <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#skillsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        
-                        <div class="carousel-inner">
-                            <!-- Slide 1 -->
-                            <div class="carousel-item active">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 80"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><h4><i class="fab fa-html5"></i></h4></div>
-                                            </div>
-                                            <h4>HTML/CSS</h4>
-                                            <p>Desenvolvimento de interfaces web responsivas e modernas</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 65"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><h4><i class="fab fa-js"></i></h4>
-                                                </div>
-                                            </div>
-                                            <h4>JavaScript</h4>
-                                            <p>Desenvolvimento de funcionalidades interativas para aplicações web</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 70"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fab fa-java"></i></div>
-                                            </div>
-                                            <h4>Java</h4>
-                                            <p>Desenvolvimento de aplicações desktop e servidores</p>
-                                        </div>
-                                    </div>
+                    <div class="col-lg-7 ps-lg-5" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <h2 class="section-title">Sobre Mim</h2>
+                        <p class="lead mb-4">Desenvolvedor iniciante e entusiasta de tecnologia, focado em
+                            desenvolvimento web e eletrônica</p>
+                        <p class="mb-4">
+                            Estou no início da minha jornada profissional na área de tecnologia, combinando
+                            conhecimentos de desenvolvimento web e eletroeletrônica. Com formação técnica em
+                            Desenvolvimento de Sistemas pelo Senai e estudos em Eletroeletrônica pelo IFSC, busco
+                            aplicar estes conhecimentos em projetos criativos e inovadores.
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    <p class="mb-0">Desenvolvimento Web</p>
                                 </div>
                             </div>
-                            
-                            <!-- Slide 2 -->
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 60"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fab fa-php"></i></div>
-                                            </div>
-                                            <h4>PHP</h4>
-                                            <p>Desenvolvimento de aplicações e sistemas para web</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 75"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fas fa-database"></i></div>
-                                            </div>
-                                            <h4>MySQL</h4>
-                                            <p>Gerenciamento e manipulação de banco de dados</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 70"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fas fa-microchip"></i></div>
-                                            </div>
-                                            <h4>Arduino</h4>
-                                            <p>Programação e desenvolvimento de projetos eletrônicos</p>
-                                        </div>
-                                    </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    <p class="mb-0">Eletroeletrônica</p>
                                 </div>
                             </div>
-                            
-                            <!-- Slide 3 -->
-                            <div class="carousel-item">
-                                <div class="row justify-content-center">
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 65"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fab fa-bootstrap"></i></div>
-                                            </div>
-                                            <h4>Bootstrap</h4>
-                                            <p>Framework para desenvolvimento de interfaces responsivas</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 80"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fas fa-file-word"></i></div>
-                                            </div>
-                                            <h4>Office</h4>
-                                            <p>Pacote de aplicativos para produtividade e documentação</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="progress-circle">
-                                                <svg class="progress-circle__svg" width="100" height="100">
-                                                    <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
-                                                    <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45" style="--percent: 60"></circle>
-                                                </svg>
-                                                <div class="progress-circle__text"><i class="fab fa-git-alt"></i></div>
-                                            </div>
-                                            <h4>Git</h4>
-                                            <p>Sistema de controle de versão para projetos de desenvolvimento</p>
-                                        </div>
-                                    </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    <p class="mb-0">Banco de Dados MySQL</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-check-circle text-primary me-2"></i>
+                                    <p class="mb-0">Arduino</p>
                                 </div>
                             </div>
                         </div>
-                        
-                        <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Próximo</span>
-                        </button>
+                        <div class="d-flex gap-3 justify-content-center justify-content-lg-start">
+                            <a href="imagens/Mateus Zdebski.pdf" class="btn btn-primary">Download CV</a>
+                            <a href="#contact" class="btn btn-outline-dark">Contate-me</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-    <!-- Education Section -->
-    <section class="py-5 py-lg-7" id="education">
-        <div class="container py-5">
-            <div class="row justify-content-center text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-lg-6">
-                    <h2 class="section-title mx-auto">Minha Educação</h2>
-                    <p>Formação acadêmica e cursos técnicos</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-10 mx-auto" data-aos="fade-up" data-aos-duration="1000">
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h5>Curso de Eletroeletrônica</h5>
-                            <p class="timeline-date">IFSC - 2024</p>
-                            <p>Iniciei curso técnico que abordou fundamentos de elétrica e Arduino.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h5>Curso de Desenvolvimento de Sistemas</h5>
-                            <p class="timeline-date">Senai - 2023</p>
-                            <p>Curso técnico que abordou fundamentos de programação, desenvolvimento web e banco de dados MySQL.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h5>Ensino Médio</h5>
-                            <p class="timeline-date">Colégio Estadual Prof Juracy Maria Brosig - 2023</p>
-                            <p>Concluí o ensino médio.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h5>Ensino Fundamental</h5>
-                            <p class="timeline-date">ESCOLA MUNICIPAL PROF ADA SANTANNA DA SILVEIRA - 2020</p>
-                            <p>Concluí o ensino fundamental.</p>
-                        </div>
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <h5>Office 2016 e Administração</h5>
-                            <p class="timeline-date">Jumper Cursos - 2016</p>
-                            <p>Concluí curso básico de administração e ferramentas do Office 2016.</p>
-                        </div>
+        <section class="py-5 py-lg-7 bg-light" id="skills">
+            <div class="container py-5">
+                <div class="row justify-content-center text-center mb-5">
+                    <div class="col-lg-6">
+                        <h2 class="section-title mx-auto">Minhas Habilidades</h2>
+                        <p>Tecnologias e ferramentas que aprendi durante minha formação</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-  <!-- Portfolio Section Redesenhado -->
-<section class="py-5 py-lg-7" id="portfolio">
-    <div class="container py-5">
-        <div class="row justify-content-center text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-            <div class="col-lg-6">
-                <h2 class="section-title mx-auto">Meu Portfólio</h2>
-                <p>Confira alguns dos projetos mais recentes que desenvolvi</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                <div class="card portfolio-card h-100">
-                    <img src="/imagens/Fofusalura.png" alt="Fokus Alura" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Fokus Alura</h5>
-                        <p class="card-text">Aplicativo web para gerenciamento de tempo e produtividade baseado na técnica Pomodoro.</p>
-                        <div class="tech-stack">
-                            <span class="badge bg-primary">HTML</span>
-                            <span class="badge bg-primary">CSS</span>
-                            <span class="badge bg-primary">JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://github.com/Mateus-Zdebski/Fokus_alura" class="btn btn-primary w-100">Ver no GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <div class="card portfolio-card h-100">
-                    <img src="/imagens/igreja.png" alt="Igreja Ucraniana" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Igreja Ucraniana</h5>
-                        <p class="card-text">Portfólio para a Igreja Ucraniana São Nicolau, apresentando história, eventos e informações importantes.</p>
-                        <div class="tech-stack">
-                            <span class="badge bg-primary">HTML</span>
-                            <span class="badge bg-primary">CSS</span>
-                            <span class="badge bg-primary">JavaScript</span>
-                            <span class="badge bg-primary">Bootstrap</span>
-                        </div>
-                    </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://github.com/Mateus-Zdebski/igreja_sao_nicolau_html_css" class="btn btn-primary w-100">Ver no GitHub</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                <div class="card portfolio-card h-100">
-                    <img src="/imagens/senaiultimoprojeto.png" alt="Loja de Veículos" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">Loja de Veículos</h5>
-                        <p class="card-text">Sistema completo para gerenciamento de vendas e estoque de uma loja de veículos.</p>
-                        <div class="tech-stack">
-                            <span class="badge bg-primary">HTML</span>
-                            <span class="badge bg-primary">CSS</span>
-                            <span class="badge bg-primary">JavaScript</span>
-                            <span class="badge bg-primary">Bootstrap</span>
-                            <span class="badge bg-primary">MySQL</span>
-                        </div>
-                    </div>
-                    <div class="card-footer bg-transparent border-0">
-                        <a href="https://github.com/Mateus-Zdebski/LojaVeiculos" class="btn btn-primary w-100">Ver no GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
         
-        <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1000">
-            <a href="https://github.com/Mateus-Zdebski?tab=repositories" class="btn btn-primary">Ver Mais Projetos</a>
-        </div>
-    </div>
-</section>
+                <!-- Swiper Container -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="progress-circle">
+                                    <svg class="progress-circle__svg" width="100" height="100">
+                                        <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
+                                        <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45"
+                                            style="--percent: 80"></circle>
+                                    </svg>
+                                    <div class="progress-circle__text">
+                                        <h4><i class="fab fa-html5"></i></h4>
+                                    </div>
+                                </div>
+                                <h4>HTML/CSS</h4>
+                                <p>Desenvolvimento de interfaces web responsivas e modernas</p>
+                            </div>
+                        </div>
+        
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="progress-circle">
+                                    <svg class="progress-circle__svg" width="100" height="100">
+                                        <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
+                                        <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45"
+                                            style="--percent: 65"></circle>
+                                    </svg>
+                                    <div class="progress-circle__text">
+                                        <h4><i class="fab fa-js"></i></h4>
+                                    </div>
+                                </div>
+                                <h4>JavaScript</h4>
+                                <p>Desenvolvimento de funcionalidades interativas para aplicações web</p>
+                            </div>
+                        </div>
+        
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="progress-circle">
+                                    <svg class="progress-circle__svg" width="100" height="100">
+                                        <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
+                                        <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45"
+                                            style="--percent: 70"></circle>
+                                    </svg>
+                                    <div class="progress-circle__text">
+                                        <h4><i class="fab fa-java"></i></h4>
+                                    </div>
+                                </div>
+                                <h4>Java</h4>
+                                <p>Desenvolvimento de aplicações desktop e servidores</p>
+                            </div>
+                        </div>
+        
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="progress-circle">
+                                    <svg class="progress-circle__svg" width="100" height="100">
+                                        <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
+                                        <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45"
+                                            style="--percent: 60"></circle>
+                                    </svg>
+                                    <div class="progress-circle__text">
+                                        <h4><i class="fab fa-php"></i></h4>
+                                    </div>
+                                </div>
+                                <h4>PHP</h4>
+                                <p>Desenvolvimento de aplicações e sistemas para web</p>
+                            </div>
+                        </div>
+        
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <div class="skills-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="progress-circle">
+                                    <svg class="progress-circle__svg" width="100" height="100">
+                                        <circle class="progress-circle__circle" cx="50" cy="50" r="45"></circle>
+                                        <circle class="progress-circle__circle--progress" cx="50" cy="50" r="45"
+                                            style="--percent: 75"></circle>
+                                    </svg>
+                                    <div class="progress-circle__text">
+                                        <h4><i class="fas fa-database"></i></h4>
+                                    </div>
+                                </div>
+                                <h4>MySQL</h4>
+                                <p>Gerenciamento e manipulação de banco de dados</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Botões de navegação -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+        
+                    <!-- Paginação -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Contact Section -->
-    <section class="py-5 py-lg-7" id="contact">
-        <div class="container py-5">
-            <div class="row justify-content-center text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
-                <div class="col-lg-6">
-                    <h2 class="section-title mx-auto">Entre em Contato</h2>
-                    <p>Vamos conversar sobre seu projeto e como posso ajudar</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
-                    <div class="contact-info">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div>
-                            <h6 class="mb-1">Localização</h6>
-                            <p class="mb-0">Joinville, SC, Brasil</p>
-                        </div>
-                    </div>
-                    <div class="contact-info">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div>
-                            <h6 class="mb-1">Email</h6>
-                            <p class="mb-0">mateus.zdebski02@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-info">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div>
-                            <h6 class="mb-1">Telefone</h6>
-                            <p class="mb-0">+55 (47) 997598910</p>
-                        </div>
-                    </div>
-                    <div class="mt-4">
-                        <h6 class="mb-3">Redes Sociais</h6>
-                        <div class="social-links">
-                            <a href="https://www.linkedin.com/authwall?trkInfo=AQFGyAgFd5yOKgAAAZVNAIa4LspIU6DsNGTYGR5JHhtJPsU7CYaq9xXqfUTRM8ihQz30X6sLClTMvwNCblNGuCz0YnUSCL20EZk_rPt4374w73T2DEa_JfzRHSP94BO6K-5FoCE=&original_referer=https://mateus-zdebski.github.io/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmateus-zdebski-623335288%2F"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://github.com/Mateus-Zdebski"><i class="fab fa-github"></i></a>
-                            <a href="https://www.instagram.com/mateuszdebski02/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-               <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
-    <div class="card p-4">
-        <form id="whatsapp-form">
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                        <label for="name" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <div class="form-group">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Seu email" required>
-                    </div>
-                </div>
-            </div>
-            <div class="mb-3">
-                <div class="form-group">
-                    <label for="subject" class="form-label">Assunto</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Assunto da mensagem" required>
-                </div>
-            </div>
-            <div class="mb-4">
-                <div class="form-group">
-                    <label for="message" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="message" rows="5" placeholder="Sua mensagem" required></textarea>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar via WhatsApp</button>
-        </form>
-    </div>
-</div>
-</section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <p class="mb-0">&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+        <!-- Education Section -->
+        <section class="py-5 py-lg-7" id="education">
+            <div class="container py-5">
+                <div class="row justify-content-center text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-6">
+                        <h2 class="section-title mx-auto">Minha Educação</h2>
+                        <p>Formação acadêmica e cursos técnicos</p>
+                    </div>
                 </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Desenvolvido por </i> Mateus Zdebski</p>
+                <div class="row">
+                    <div class="col-lg-10 mx-auto" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>Curso de Eletroeletrônica</h5>
+                                <p class="timeline-date">IFSC - 2024</p>
+                                <p>Iniciei curso técnico que abordou fundamentos de elétrica e Arduino.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>Curso de Desenvolvimento de Sistemas</h5>
+                                <p class="timeline-date">Senai - 2023</p>
+                                <p>Curso técnico que abordou fundamentos de programação, desenvolvimento web e banco de
+                                    dados MySQL.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>Ensino Médio</h5>
+                                <p class="timeline-date">Colégio Estadual Prof Juracy Maria Brosig - 2023</p>
+                                <p>Concluí o ensino médio.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>Ensino Fundamental</h5>
+                                <p class="timeline-date">ESCOLA MUNICIPAL PROF ADA SANTANNA DA SILVEIRA - 2020</p>
+                                <p>Concluí o ensino fundamental.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h5>Office 2016 e Administração</h5>
+                                <p class="timeline-date">Jumper Cursos - 2016</p>
+                                <p>Concluí curso básico de administração e ferramentas do Office 2016.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </section>
 
-  
-    <!-- Bootstrap JS Bundle -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>    
-    <!-- AOS Animation Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    
-    <!-- Custom JS -->
 
-    <script src="JS.js"></script>
+        <!-- Portfolio Section Redesenhado -->
+        <section class="py-5 py-lg-7" id="portfolio">
+            <div class="container py-5">
+                <div class="row justify-content-center text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-6">
+                        <h2 class="section-title mx-auto">Meu Portfólio</h2>
+                        <p>Confira alguns dos projetos mais recentes que desenvolvi</p>
+                    </div>
+                </div>
+
+                <!-- Swiper Container -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- Card 1 -->
+                        <div class="swiper-slide">
+                            <div class="card portfolio-card h-100">
+                                <img src="/imagens/Fofusalura.png" alt="Fokus Alura" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fokus Alura</h5>
+                                    <p class="card-text">Aplicativo web para gerenciamento de tempo e produtividade
+                                        baseado na técnica Pomodoro.</p>
+                                    <div class="tech-stack">
+                                        <span class="badge bg-primary">HTML</span>
+                                        <span class="badge bg-primary">CSS</span>
+                                        <span class="badge bg-primary">JavaScript</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-0">
+                                    <a href="https://github.com/Mateus-Zdebski/Fokus_alura"
+                                        class="btn btn-primary w-100">Ver no GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="swiper-slide">
+                            <div class="card portfolio-card h-100">
+                                <img src="/imagens/igreja.png" alt="Igreja Ucraniana" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Igreja Ucraniana</h5>
+                                    <p class="card-text">Portfólio para a Igreja Ucraniana São Nicolau.</p>
+                                    <div class="tech-stack">
+                                        <span class="badge bg-primary">HTML</span>
+                                        <span class="badge bg-primary">CSS</span>
+                                        <span class="badge bg-primary">JavaScript</span>
+                                        <span class="badge bg-primary">Bootstrap</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-0 d-flex flex-column gap-2">
+                                    <a href="https://saonicolau.joinville.br/" class="btn btn-success w-100"
+                                        target="_blank">Visitar Site</a>
+                                    <a href="https://github.com/Mateus-Zdebski/igreja_sao_nicolau_html_css"
+                                        class="btn btn-primary w-100" target="_blank">Ver no GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="swiper-slide">
+                            <div class="card portfolio-card h-100">
+                                <img src="/imagens/senaiultimoprojeto.png" alt="Loja de Veículos" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title">Loja de Veículos</h5>
+                                    <p class="card-text">Sistema para gerenciamento de vendas e estoque de uma loja de
+                                        veículos.</p>
+                                    <div class="tech-stack">
+                                        <span class="badge bg-primary">HTML</span>
+                                        <span class="badge bg-primary">CSS</span>
+                                        <span class="badge bg-primary">JavaScript</span>
+                                        <span class="badge bg-primary">Bootstrap</span>
+                                        <span class="badge bg-primary">MySQL</span>
+                                    </div>
+                                </div>
+                                <div class="card-footer bg-transparent border-0">
+                                    <a href="https://github.com/Mateus-Zdebski/LojaVeiculos"
+                                        class="btn btn-primary w-100">Ver no GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botões de navegação -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- Paginação -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="text-center mt-4" data-aos="fade-up" data-aos-duration="1000">
+                    <a href="https://github.com/Mateus-Zdebski?tab=repositories" class="btn btn-primary">Ver Mais
+                        Projetos</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section class="py-5 py-lg-7" id="contact">
+            <div class="container py-5">
+                <div class="row justify-content-center text-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="col-lg-6">
+                        <h2 class="section-title mx-auto">Entre em Contato</h2>
+                        <p>Vamos conversar sobre seu projeto e como posso ajudar</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Localização</h6>
+                                <p class="mb-0">Joinville, SC, Brasil</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Email</h6>
+                                <p class="mb-0">mateus.zdebski02@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Telefone</h6>
+                                <p class="mb-0">+55 (47) 997598910</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h6 class="mb-3">Redes Sociais</h6>
+                            <div class="social-links">
+                                <a
+                                    href="https://www.linkedin.com/authwall?trkInfo=AQFGyAgFd5yOKgAAAZVNAIa4LspIU6DsNGTYGR5JHhtJPsU7CYaq9xXqfUTRM8ihQz30X6sLClTMvwNCblNGuCz0YnUSCL20EZk_rPt4374w73T2DEa_JfzRHSP94BO6K-5FoCE=&original_referer=https://mateus-zdebski.github.io/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmateus-zdebski-623335288%2F"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/Mateus-Zdebski"><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/mateuszdebski02/"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="card p-4">
+                            <form id="whatsapp-form">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label for="name" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Seu nome"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="form-group">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Seu email"
+                                                required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Assunto</label>
+                                        <input type="text" class="form-control" id="subject"
+                                            placeholder="Assunto da mensagem" required>
+                                    </div>
+                                </div>
+                                <div class="mb-4">
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Mensagem</label>
+                                        <textarea class="form-control" id="message" rows="5" placeholder="Sua mensagem"
+                                            required></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar via WhatsApp</button>
+                            </form>
+                        </div>
+                    </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <p class="mb-0">&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <p class="mb-0">Desenvolvido por </i> Mateus Zdebski</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Bootstrap JS Bundle -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+        <!-- AOS Animation Library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+        <!-- Custom JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script src="JS.js"></script>
 </body>
+
 </html>
