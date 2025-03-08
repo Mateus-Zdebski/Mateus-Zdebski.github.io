@@ -100,7 +100,7 @@
             spaceBetween: 20,
             loop: true,
             autoplay: {
-                delay: 2500, // Troca os slides a cada 2.5 segundos
+                delay: 7000, // Troca os slides a cada 2.5 segundos
                 disableOnInteraction: false, // Continua rodando após interação do usuário
             },
             navigation: {
